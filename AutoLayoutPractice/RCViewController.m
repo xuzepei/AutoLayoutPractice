@@ -26,4 +26,23 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    [super willRotateToInterfaceOrientation:toInterfaceOrientation duration:duration];
+    
+//    if(UIInterfaceOrientationLandscapeLeft == toInterfaceOrientation || UIInterfaceOrientationLandscapeRight == toInterfaceOrientation)
+//    {
+//        //...
+//    }
+}
+
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    [super didRotateFromInterfaceOrientation:fromInterfaceOrientation];
+    
+    NSLog(@"topLeftViewFrame:%@",NSStringFromCGRect(self.topLeftView.frame));
+    NSLog(@"topRightViewFrame:%@",NSStringFromCGRect(self.topRightView.frame));
+    NSLog(@"bottomViewFrame:%@",NSStringFromCGRect(self.bottomView.frame));
+}
+
 @end
