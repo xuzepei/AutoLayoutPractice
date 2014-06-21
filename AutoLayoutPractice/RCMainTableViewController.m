@@ -45,7 +45,7 @@
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
     // Return the number of rows in the section.
-    return 2;
+    return 3;
 }
 
 
@@ -67,6 +67,10 @@
     else if(1 == indexPath.row)
     {
         title = @"Constraints";
+    }
+    else if(2 == indexPath.row)
+    {
+        title = @"Constraints Multiplier";
     }
     
     cell.textLabel.text = title;
@@ -92,6 +96,10 @@
 //        [self.navigationController pushViewController:temp animated:YES];
         
         [self performSegueWithIdentifier:@"to_constraints" sender:nil];
+    }
+    else if(2 == indexPath.row)
+    {
+        [self performSegueWithIdentifier:@"si_to_constraints_multiplier" sender:nil];
     }
 }
 

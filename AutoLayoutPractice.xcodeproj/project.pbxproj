@@ -68,6 +68,8 @@
 		09716DB71946A37800790800 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09716D961946A37700790800 /* UIKit.framework */; };
 		09716DBF1946A37800790800 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09716DBD1946A37800790800 /* InfoPlist.strings */; };
 		09716DC11946A37800790800 /* AutoLayoutPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09716DC01946A37800790800 /* AutoLayoutPracticeTests.m */; };
+		09B8EF0C19551725005FAAA9 /* RCConstraintsMultiplierViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B8EF0A19551725005FAAA9 /* RCConstraintsMultiplierViewController.m */; };
+		09B8EF0D19551725005FAAA9 /* RCConstraintsMultiplierViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B8EF0B19551725005FAAA9 /* RCConstraintsMultiplierViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -149,6 +151,9 @@
 		09716DBC1946A37800790800 /* AutoLayoutPracticeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AutoLayoutPracticeTests-Info.plist"; sourceTree = "<group>"; };
 		09716DBE1946A37800790800 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		09716DC01946A37800790800 /* AutoLayoutPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutPracticeTests.m; sourceTree = "<group>"; };
+		09B8EF0919551725005FAAA9 /* RCConstraintsMultiplierViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCConstraintsMultiplierViewController.h; sourceTree = "<group>"; };
+		09B8EF0A19551725005FAAA9 /* RCConstraintsMultiplierViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCConstraintsMultiplierViewController.m; sourceTree = "<group>"; };
+		09B8EF0B19551725005FAAA9 /* RCConstraintsMultiplierViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RCConstraintsMultiplierViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -269,6 +274,9 @@
 				090F9E8E1947F86A009CEEF0 /* RCConstraintsViewController.h */,
 				090F9E8F1947F86A009CEEF0 /* RCConstraintsViewController.m */,
 				090F9E901947F86A009CEEF0 /* RCConstraintsViewController.xib */,
+				09B8EF0919551725005FAAA9 /* RCConstraintsMultiplierViewController.h */,
+				09B8EF0A19551725005FAAA9 /* RCConstraintsMultiplierViewController.m */,
+				09B8EF0B19551725005FAAA9 /* RCConstraintsMultiplierViewController.xib */,
 				09716DAD1946A37700790800 /* Images.xcassets */,
 				09716D991946A37700790800 /* Supporting Files */,
 			);
@@ -421,6 +429,7 @@
 				09514870194701A000D2B3ED /* bg_wall.png in Resources */,
 				0951487B194701A000D2B3ED /* chalkboard@2x.png in Resources */,
 				0951488F194701A000D2B3ED /* person@2x.png in Resources */,
+				09B8EF0D19551725005FAAA9 /* RCConstraintsMultiplierViewController.xib in Resources */,
 				09514893194701A000D2B3ED /* sign_theiOSdiner@2x.png in Resources */,
 				09514875194701A000D2B3ED /* button_arrow_left@2x.png in Resources */,
 				09514872194701A000D2B3ED /* button_arrow.png in Resources */,
@@ -451,6 +460,7 @@
 				09716D9F1946A37700790800 /* main.m in Sources */,
 				090F9E911947F86A009CEEF0 /* RCConstraintsViewController.m in Sources */,
 				09716DA31946A37700790800 /* RCAppDelegate.m in Sources */,
+				09B8EF0C19551725005FAAA9 /* RCConstraintsMultiplierViewController.m in Sources */,
 				09716DAC1946A37700790800 /* RCViewController.m in Sources */,
 				090F9E8C1947EA85009CEEF0 /* RCMainTableViewController.m in Sources */,
 			);
@@ -587,6 +597,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: GAO HUIJUAN (H6MYDBBM56)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AutoLayoutPractice/AutoLayoutPractice-Prefix.pch";
 				INFOPLIST_FILE = "AutoLayoutPractice/AutoLayoutPractice-Info.plist";
